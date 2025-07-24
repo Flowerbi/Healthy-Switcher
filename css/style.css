@@ -193,7 +193,7 @@ body {
 }
 @media (max-width: 460px) {
   .title__bg {
-    font-size: 60px;
+    font-size: 55px;
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
@@ -1149,6 +1149,673 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.recipes__title:not(:last-child) {
+  margin-bottom: 60px;
+}
+@media (max-width: 710px) {
+  .recipes__title:not(:last-child) {
+    margin-bottom: 35px;
+  }
+}
+.recipes__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 30px;
+  margin: 0 -15px;
+}
+.recipes__left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%;
+  padding: 0 15px;
+}
+.recipes__right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%;
+  padding: 0 15px;
+}
+.recipes__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  row-gap: 30px;
+}
+.card-big-recipes {
+  padding: 11.1111111111% 12.037037037%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  min-width: 405px;
+}
+@media (max-width: 600px) {
+  .card-big-recipes {
+    min-width: 0;
+  }
+}
+@media (max-width: 349.98px) {
+  .card-big-recipes {
+    padding: 25px 15px 25px 10px;
+  }
+}
+.card-big-recipes__image-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px;
+}
+.card-big-recipes__inner {
+  position: relative;
+  z-index: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.card-big-recipes__theme {
+  text-align: center;
+  font-family: "HelveticaCondensed", sans-serif;
+  font-weight: 900;
+  font-size: 13px;
+  letter-spacing: 1.25px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3019607843);
+  border-radius: 3px;
+  padding: 4px 13px;
+  text-transform: uppercase;
+}
+.card-big-recipes__theme:not(:last-child) {
+  margin-bottom: 69px;
+}
+@media (max-width: 400.98px) {
+  .card-big-recipes__theme:not(:last-child) {
+    margin-bottom: 35px;
+  }
+}
+.card-big-recipes__date {
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+}
+.card-big-recipes__date:not(:last-child) {
+  margin-bottom: 32px;
+}
+@media (max-width: 400.98px) {
+  .card-big-recipes__date:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
+.card-big-recipes__title {
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  max-width: 411px;
+}
+.card-big-recipes__title:not(:last-child) {
+  margin-bottom: 52px;
+}
+@media (max-width: 400.98px) {
+  .card-big-recipes__title:not(:last-child) {
+    margin-bottom: 26px;
+  }
+}
+.card-big-recipes__name {
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+.card-big-recipes__name:not(:last-child) {
+  margin-bottom: 68px;
+}
+@media (max-width: 400.98px) {
+  .card-big-recipes__name:not(:last-child) {
+    margin-bottom: 34px;
+  }
+}
+.card-big-recipes__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 24px;
+     -moz-column-gap: 24px;
+          column-gap: 24px;
+  row-gap: 15px;
+}
+.card-big-recipes__footer:not(:last-child) {
+  margin-bottom: 53px;
+}
+@media (max-width: 400.98px) {
+  .card-big-recipes__footer:not(:last-child) {
+    margin-bottom: 26px;
+  }
+}
+.card-big-recipes__viewer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.card-big-recipes__picture-icon {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 26px;
+          flex: 0 0 26px;
+  height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.card-big-recipes__picture-icon:not(:last-child) {
+  margin-right: 12px;
+}
+.card-big-recipes__num {
+  font-family: "HelveticaCondensed", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #fff;
+  line-height: 2.1;
+}
+.card-big-recipes__comments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.card-big-recipes__button {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  z-index: 3;
+  background-color: transparent;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.card-big-recipes__button:hover {
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+}
+.item-recipes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 29px 28px 25px 30px;
+  background-color: #252525;
+  border-radius: 8px;
+  position: relative;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  min-width: 405px;
+}
+@media (max-width: 600px) {
+  .item-recipes {
+    min-width: 0;
+  }
+}
+@media (max-width: 349.98px) {
+  .item-recipes {
+    padding: 25px 15px 25px 10px;
+  }
+}
+.item-recipes::before {
+  content: "";
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: transparent;
+  z-index: 1;
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.item-recipes:hover::before {
+  background-color: #34C759;
+}
+.item-recipes:hover .item-recipes__title {
+  color: #252525;
+}
+.item-recipes:hover .item-recipes__theme {
+  background-color: #000000;
+}
+.item-recipes:hover .item-recipes__date {
+  color: #1A1A1A;
+}
+.item-recipes:hover .item-recipes__num {
+  color: #1A1A1A;
+}
+.item-recipes:hover .item-recipes__picture-icon rect {
+  fill: #191919;
+}
+.item-recipes__inner {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+.item-recipes__image-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px;
+}
+.item-recipes__title {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.875;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+@media (max-width: 430px) {
+  .item-recipes__title {
+    text-align: center;
+    font-size: 18px;
+  }
+}
+.item-recipes__title:not(:last-child) {
+  margin-bottom: 10px;
+}
+.item-recipes__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 15px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media (max-width: 430px) {
+  .item-recipes__footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.item-recipes__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+@media (max-width: 430px) {
+  .item-recipes__head {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.item-recipes__other {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 24px;
+}
+@media (max-width: 430px) {
+  .item-recipes__other {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.item-recipes__theme {
+  font-family: "HelveticaCondensed", sans-serif;
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: 1.25px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3019607843);
+  text-transform: uppercase;
+  border-radius: 3px;
+  padding: 3px 13px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.item-recipes__date {
+  color: #B3B3B3;
+  font-size: 12px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.item-recipes__viewer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.item-recipes__picture-icon {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 26px;
+          flex: 0 0 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 26px;
+}
+.item-recipes__picture-icon:not(:last-child) {
+  margin-right: 12px;
+}
+.item-recipes__picture-icon rect {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.item-recipes__num {
+  font-family: "HelveticaCondensed", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #D8D8D8;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.item-recipes__comments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social__inner {
+  padding: 10.8% 0;
+}
+.social__title:not(:last-child) {
+  margin-bottom: 60px;
+}
+@media (max-width: 710px) {
+  .social__title:not(:last-child) {
+    margin-bottom: 35px;
+  }
+}
+.social__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -15px;
+  row-gap: 30px;
+}
+@media (max-width: 859.98px) {
+  .social__items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.social__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 33.3333%;
+          flex: 1 1 33.3333%;
+  padding: 0 15px;
+}
+
+.item-social {
+  background-color: #252525;
+  border-radius: 5px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.item-social__head {
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 15px;
+}
+@media (max-width: 999.98px) {
+  .item-social__head {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media (max-width: 859.98px) {
+  .item-social__head {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+@media (max-width: 389.98px) {
+  .item-social__head {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.item-social__name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.item-social__picture {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40px;
+          flex: 0 0 40px;
+  height: 40px;
+}
+.item-social__picture:not(:last-child) {
+  margin-right: 20px;
+}
+.item-social__img {
+  width: 100%;
+  height: 100%;
+}
+.item-social__title {
+  font-size: 14px;
+  color: #BFBFBF;
+}
+.item-social__link {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  font-family: "HelveticaCondensed", sans-serif;
+  font-weight: 900;
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #737373;
+  text-transform: uppercase;
+  padding: 9px 16px;
+  border-radius: 50px;
+  border: 2px solid #303030;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+.item-social__link:hover {
+  background-color: #303030;
+  color: #9a9898;
+}
+@media (max-width: 999.98px) {
+  .item-social__link {
+    width: 100%;
+  }
+}
+@media (max-width: 859.98px) {
+  .item-social__link {
+    width: auto;
+  }
+}
+@media (max-width: 389.98px) {
+  .item-social__link {
+    width: 100%;
+  }
+}
+.item-social__body {
+  border-top: 2px solid #303030;
+  padding: 20px 40px 30px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+.item-social__body_pictures {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0;
+  border-top: 0;
+}
+@media (max-width: 389.98px) {
+  .item-social__body {
+    padding: 20px 10px 20px 20px;
+  }
+}
+.item-social__date {
+  color: #737373;
+  font-size: 14px;
+}
+.item-social__date:not(:last-child) {
+  margin-bottom: 20px;
+}
+.item-social__text {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7019607843);
+  line-height: 2.14;
+  height: 120px;
+  overflow: auto;
+}
+.item-social__text:not(:last-child) {
+  margin-bottom: 15px;
+}
+.item-social__author {
+  color: #34C759;
+  font-size: 14px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.item-social__author:hover {
+  color: #7ccd91;
+}
+
+.item-social-item-body {
+  display: inline-block;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 115px;
+          flex: 1 1 115px;
+  position: relative;
+  width: 100%;
+  position: relative;
+  min-width: 115px;
+}
+.item-social-item-body:hover .item-social-item-body__link {
+  opacity: 100%;
+}
+.item-social-item-body__picture {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+.item-social-item-body__image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  width: 100%;
+  height: 100%;
+}
+.item-social-item-body__link {
+  opacity: 0%;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 .footer {
   background-color: #252525;
 }
